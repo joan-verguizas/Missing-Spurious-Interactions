@@ -22,7 +22,7 @@ The core of this project is based on the work of [R. Guimerà et al.](https://ww
 - Initialize the network with a random community structure.
 - Use a Metropolis Algorithm in order to obtain a sample of the partitions.
 - Create a fake observed network using the true data with a certain number of either missing or spurious interactions.
-- Compute the reliability for each possible connection.
+- Compute the reliability for each possible connection using the community structure information for the set of partitions we sampled.
 - Calculate the accuracy at detecting spurious/missing interactions using the true network.
 - Repeat the process for different fraction of missing/spurious interactions as well as for a number of iterations for better results.
 

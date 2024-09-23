@@ -1,4 +1,4 @@
-# Project Title: Missing and Spurious Interactions in Complex Networks
+# Missing and Spurious Interactions in Complex Networks
 
 ### Course: Information Theory and Inference (2023-2024)  
 ### Master's Degree: Physics of Data, University of Padova (IT)

@@ -20,8 +20,8 @@ By applying this model, the project aims to improve the understanding and reliab
 The core of this project is based on the work of [R. Guimerà et al.](https://www.pnas.org/doi/10.1073/pnas.0908366106), who proposed a model to infer missing and spurious links in complex networks by leveraging both local and global network properties. The approach takes into account various network attributes, such as node connectivity and community structure, to improve the detection of anomalies and missing links. The overall strategy is as follows:
 
 - Initialize the network with a random community structure.
-- Use a Metropolis Algorithm in order to obtain a sample of the partitions.
 - Create a fake observed network using the true data with a certain number of either missing or spurious interactions.
+- Use the Metropolis Algorithm in order to obtain a set of samples of the partitions.
 - Compute the reliability for each possible connection using the community structure information for the set of partitions we sampled.
 - Calculate the accuracy at detecting spurious/missing interactions using the true network.
 - Repeat the process for different fraction of missing/spurious interactions as well as for a number of iterations for better results.

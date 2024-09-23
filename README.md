@@ -17,7 +17,7 @@ By applying this model, the project aims to improve the understanding and reliab
 
 ## Methods and Models
 
-The core of this project is based on the work of [R. Guimerà et al.](https://www.nature.com/articles/nature01939), who proposed a model to infer missing and spurious links in complex networks by leveraging both local and global network properties. The approach takes into account various network attributes, such as node connectivity and community structure, to improve the detection of anomalies and missing links. The overall strategy is as follows:
+The core of this project is based on the work of [R. Guimerà et al.](https://www.pnas.org/doi/10.1073/pnas.0908366106), who proposed a model to infer missing and spurious links in complex networks by leveraging both local and global network properties. The approach takes into account various network attributes, such as node connectivity and community structure, to improve the detection of anomalies and missing links. The overall strategy is as follows:
 
 - Initialize the network with a random community structure.
 - Use a Metropolis Algorithm in order to obtain a sample of the partitions.
